@@ -31,22 +31,29 @@ class TemplateSingleMetadata {
         <div class="movieplugin__single-metadata-title">
 			<?php _e( 'Additional Information', MoviePlugin::$textdomine ); ?>
         </div>
-        <div class="MoviePlugin__single-metadata-items">
-            <div class="MoviePlugin__single-metadata-item">
+        <div class="movieplugin__single-metadata-items">
+            <div class="movieplugin__single-metadata-item">
 				<?php the_terms( get_the_ID(), 'countries', '<strong>' . __( 'Country: ', MoviePlugin::$textdomine ) . '</strong>', ',' ); ?>
             </div>
 
-            <div class="MoviePlugin__single-metadata-item">
+            <div class="movieplugin__single-metadata-item">
 
 				<?php the_terms( get_the_ID(), 'genres', '<strong>' . __( 'Genre: ', MoviePlugin::$textdomine ) . '</strong>', ',' ); ?>
             </div>
 
-            <div class="MoviePlugin__single-metadata-item">
+            <div class="movieplugin__single-metadata-item">
+                <span class="label label-info">
 				<?php _e( '<strong>Release date: </strong>', MoviePlugin::$textdomine ); ?><?php echo $date; ?>
+                    <i class="fa fa-calendar"></i>
+                </span>
             </div>
 
-            <div class="MoviePlugin__single-metadata-item">
+            <div class="movieplugin__single-metadata-item">
+
+                <span class="label label-primary">
 				<?php _e( '<strong>Price: </strong>', MoviePlugin::$textdomine ); ?><?php echo $price; ?>
+                    <i class="fa fa-dollar"></i>
+                </span>
             </div>
 
         </div>

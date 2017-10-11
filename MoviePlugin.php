@@ -17,6 +17,7 @@ new Autoloader( __FILE__, 'MoviePlugin' );
 
 use MoviePlugin\Base\Wrap;
 use MoviePlugin\Classes\AddPostType;
+use MoviePlugin\Classes\ArchiveBanners;
 use MoviePlugin\Classes\InstallDemo;
 use MoviePlugin\Classes\TaxonomyWrap;
 use MoviePlugin\Classes\MetaBox;
@@ -24,7 +25,7 @@ use MoviePlugin\Classes\TemplateSingleMetadata;
 use MoviePlugin\Classes\TemplateRouter;
 
 class MoviePlugin extends Wrap {
-	public $version = '1.1.1';
+	public $version = '1.2.0';
 	public static $textdomine;
 	public static $post_type = 'movie';
 
@@ -57,6 +58,8 @@ class MoviePlugin extends Wrap {
 		new TemplateRouter();
 
 		new TemplateSingleMetadata();
+
+		new ArchiveBanners();
 
 		if ( get_option( 'MoviePlugin_demo_content_add', false ) ) {
 			new InstallDemo();

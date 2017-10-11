@@ -1,6 +1,6 @@
 <?php
 
-namespace WordpressMagicBoilerplate;
+namespace MoviePlugin;
 	class Autoloader {
 
 		private $loader;

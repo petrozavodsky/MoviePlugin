@@ -10,7 +10,7 @@ class TemplateRouter {
 	use Assets;
 
 	public function __construct() {
-			add_filter( 'template_include', [ $this, 'router' ] );
+		add_filter( 'template_include', [ $this, 'router' ] );
 	}
 
 
@@ -19,7 +19,7 @@ class TemplateRouter {
 			return $this->plugin_dir() . "templates/single.php";
 		}
 
-		if ( is_tax( "genres" ) || is_tax( "countries" ) || is_tax( "years" ) || is_tax( "actors" ) ) {
+		if ( is_post_type_archive( MoviePlugin::$post_type ) ) {
 			return $this->plugin_dir() . "templates/archive.php";
 		}
 

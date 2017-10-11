@@ -20,6 +20,7 @@ use MoviePlugin\Classes\AddPostType;
 use MoviePlugin\Classes\InstallDemo;
 use MoviePlugin\Classes\TaxonomyWrap;
 use MoviePlugin\Classes\MetaBox;
+use MoviePlugin\Classes\TemplateSingleMetadata;
 use MoviePlugin\Classes\TemplateRouter;
 
 class MoviePlugin extends Wrap {
@@ -54,6 +55,8 @@ class MoviePlugin extends Wrap {
 		);
 
 		new TemplateRouter();
+
+		new TemplateSingleMetadata();
 
 		if ( get_option( 'MoviePlugin_demo_content_add', false ) ) {
 			new InstallDemo();

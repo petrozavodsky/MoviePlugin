@@ -25,6 +25,11 @@ class ArchiveBanners {
 		add_action( 'MoviePlugin__archive_list_before', [ $this, 'add_archive_list_before' ] );
 		add_action( 'MoviePlugin__archive_list_after', [ $this, 'add_archive_list_after' ] );
 
+		add_action( 'admin_enqueue_scripts', function (){
+			if ( ! did_action( 'wp_enqueue_media' ) ) {
+				wp_enqueue_media();
+			}
+		} );
 	}
 
 	public function add_front_style() {

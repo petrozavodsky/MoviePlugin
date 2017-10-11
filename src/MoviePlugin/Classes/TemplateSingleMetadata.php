@@ -13,8 +13,7 @@ class TemplateSingleMetadata {
 
 	public function __construct() {
 		add_action( 'MoviePlugin__after', [ $this, 'template_path' ] );
-		$a = $this->addCss( 'SingleMetadata' );
-		d( $a );
+		$this->addCss( 'SingleMetadata' );
 	}
 
 

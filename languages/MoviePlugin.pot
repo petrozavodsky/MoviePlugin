@@ -1,0 +1,270 @@
+# Copyright (C) 2017 MoviePlugin
+# This file is distributed under the same license as the MoviePlugin package.
+msgid ""
+msgstr ""
+"Project-Id-Version: MoviePlugin\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: MoviePlugin.php:37, MoviePlugin.php:47
+msgid "Movies"
+msgstr ""
+
+#: MoviePlugin.php:38
+msgid "Movie"
+msgstr ""
+
+#: MoviePlugin.php:39
+msgid "Add new"
+msgstr ""
+
+#: MoviePlugin.php:40
+msgid "Add new Movie"
+msgstr ""
+
+#: MoviePlugin.php:41
+msgid "Edit Movie"
+msgstr ""
+
+#: MoviePlugin.php:42
+msgid "New Movie"
+msgstr ""
+
+#: MoviePlugin.php:43
+msgid "View Movie"
+msgstr ""
+
+#: MoviePlugin.php:44
+msgid "Search Movie"
+msgstr ""
+
+#: MoviePlugin.php:45
+msgid "Movie no found"
+msgstr ""
+
+#: MoviePlugin.php:46
+msgid "No movies found in trash"
+msgstr ""
+
+#: MoviePlugin.php:72, MoviePlugin.php:84
+msgid "Genres"
+msgstr ""
+
+#: MoviePlugin.php:73, src/MoviePlugin/Classes/TemplateSingleMetadata.php:39
+msgid "Genre"
+msgstr ""
+
+#: MoviePlugin.php:74
+msgid "Search genres"
+msgstr ""
+
+#: MoviePlugin.php:75
+msgid "Popular genres"
+msgstr ""
+
+#: MoviePlugin.php:76
+msgid "All genres"
+msgstr ""
+
+#: MoviePlugin.php:77
+msgid "Edit genres"
+msgstr ""
+
+#: MoviePlugin.php:78
+msgid "Update genres"
+msgstr ""
+
+#: MoviePlugin.php:79
+msgid "Add new genres"
+msgstr ""
+
+#: MoviePlugin.php:80
+msgid "New genres name"
+msgstr ""
+
+#: MoviePlugin.php:81
+msgid "Separate genres with commas"
+msgstr ""
+
+#: MoviePlugin.php:82
+msgid "Add or remove genres"
+msgstr ""
+
+#: MoviePlugin.php:83
+msgid "Choose from the most used genres"
+msgstr ""
+
+#: MoviePlugin.php:91, MoviePlugin.php:103
+msgid "Countries"
+msgstr ""
+
+#: MoviePlugin.php:92, src/MoviePlugin/Classes/TemplateSingleMetadata.php:34
+msgid "Country"
+msgstr ""
+
+#: MoviePlugin.php:93
+msgid "Search countries"
+msgstr ""
+
+#: MoviePlugin.php:94
+msgid "Popular countries"
+msgstr ""
+
+#: MoviePlugin.php:95
+msgid "All countries"
+msgstr ""
+
+#: MoviePlugin.php:96
+msgid "Edit countries"
+msgstr ""
+
+#: MoviePlugin.php:97
+msgid "Update countries"
+msgstr ""
+
+#: MoviePlugin.php:98
+msgid "Add new country"
+msgstr ""
+
+#: MoviePlugin.php:99
+msgid "New country name"
+msgstr ""
+
+#: MoviePlugin.php:100
+msgid "Separate countries with commas"
+msgstr ""
+
+#: MoviePlugin.php:101
+msgid "Add or remove countries"
+msgstr ""
+
+#: MoviePlugin.php:102
+msgid "Choose from the most used countries"
+msgstr ""
+
+#: MoviePlugin.php:110, MoviePlugin.php:122
+msgid "Years"
+msgstr ""
+
+#: MoviePlugin.php:111
+msgid "Year"
+msgstr ""
+
+#: MoviePlugin.php:112
+msgid "Search years"
+msgstr ""
+
+#: MoviePlugin.php:113
+msgid "Popular years"
+msgstr ""
+
+#: MoviePlugin.php:114
+msgid "All years"
+msgstr ""
+
+#: MoviePlugin.php:115
+msgid "Edit years"
+msgstr ""
+
+#: MoviePlugin.php:116
+msgid "Update years"
+msgstr ""
+
+#: MoviePlugin.php:117
+msgid "Add new years"
+msgstr ""
+
+#: MoviePlugin.php:118
+msgid "New years name"
+msgstr ""
+
+#: MoviePlugin.php:119
+msgid "Separate years with commas"
+msgstr ""
+
+#: MoviePlugin.php:120
+msgid "Add or remove years"
+msgstr ""
+
+#: MoviePlugin.php:121
+msgid "Choose from the most used years"
+msgstr ""
+
+#: MoviePlugin.php:130, MoviePlugin.php:142
+msgid "Actors"
+msgstr ""
+
+#: MoviePlugin.php:131
+msgid "Actor"
+msgstr ""
+
+#: MoviePlugin.php:132
+msgid "Search actors"
+msgstr ""
+
+#: MoviePlugin.php:133
+msgid "Popular actors"
+msgstr ""
+
+#: MoviePlugin.php:134
+msgid "All actors"
+msgstr ""
+
+#: MoviePlugin.php:135
+msgid "Edit actors"
+msgstr ""
+
+#: MoviePlugin.php:136
+msgid "Update actors"
+msgstr ""
+
+#: MoviePlugin.php:137
+msgid "Add new actor"
+msgstr ""
+
+#: MoviePlugin.php:138
+msgid "New actor name"
+msgstr ""
+
+#: MoviePlugin.php:139
+msgid "Separate actor with commas"
+msgstr ""
+
+#: MoviePlugin.php:140
+msgid "Add or remove actor"
+msgstr ""
+
+#: MoviePlugin.php:141
+msgid "Choose from the most used actors"
+msgstr ""
+
+#: templates/single.php:33
+msgid "Pages:"
+msgstr ""
+
+#: templates/single.php:46, templates/single.php:49
+msgid ", "
+msgstr ""
+
+#: templates/single.php:77
+msgid "Edit"
+msgstr ""
+
+#: src/MoviePlugin/Classes/MetaBox.php:51
+msgid "Extra fields"
+msgstr ""
+
+#: src/MoviePlugin/Classes/MetaBox.php:67, src/MoviePlugin/Classes/TemplateSingleMetadata.php:47
+msgid "Price:"
+msgstr ""
+
+#: src/MoviePlugin/Classes/MetaBox.php:75, src/MoviePlugin/Classes/TemplateSingleMetadata.php:43
+msgid "Release date:"
+msgstr ""

@@ -15,12 +15,18 @@ class TemplateRouter {
 
 
 	public function router( $template ) {
-		if ( is_singular( MoviePlugin::$post_type ) ) {
-			return $this->plugin_dir() . "templates/single.php";
-		}
 
-		if ( is_post_type_archive( MoviePlugin::$post_type ) ) {
-			return $this->plugin_dir() . "templates/archive.php";
+		$theme_info = wp_get_theme();
+
+
+		if ( $theme_info->template == 'unite' ) {
+			if ( is_singular( MoviePlugin::$post_type ) ) {
+				return $this->plugin_dir() . "templates/single.php";
+			}
+
+			if ( is_post_type_archive( MoviePlugin::$post_type ) ) {
+				return $this->plugin_dir() . "templates/archive.php";
+			}
 		}
 
 		return $template;

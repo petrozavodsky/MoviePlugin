@@ -8,303 +8,310 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.0.4\n"
+"Last-Translator: \n"
+"Language: ru_RU\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
-"X-Poedit-SourceCharset: UTF-8\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: MoviePlugin.php:38, MoviePlugin.php:48
 msgid "Movies"
-msgstr ""
+msgstr "Фильмы"
 
 #: MoviePlugin.php:39
 msgid "Movie"
-msgstr ""
+msgstr "Фильм"
 
 #: MoviePlugin.php:40
 msgid "Add new"
-msgstr ""
+msgstr "Добавить новый"
 
 #: MoviePlugin.php:41
 msgid "Add new Movie"
-msgstr ""
+msgstr "Добавить новый фильм"
 
 #: MoviePlugin.php:42
 msgid "Edit Movie"
-msgstr ""
+msgstr "Редактировать фильм"
 
 #: MoviePlugin.php:43
 msgid "New Movie"
-msgstr ""
+msgstr "Добавить фильм"
 
 #: MoviePlugin.php:44
 msgid "View Movie"
-msgstr ""
+msgstr "Просмотреть фильм"
 
 #: MoviePlugin.php:45
 msgid "Search Movie"
-msgstr ""
+msgstr "Найти фильм"
 
 #: MoviePlugin.php:46
 msgid "Movie no found"
-msgstr ""
+msgstr "Фильмов не найдено"
 
 #: MoviePlugin.php:47
 msgid "No movies found in trash"
-msgstr ""
+msgstr "Нет фильмов, найденных в корзине"
 
 #: MoviePlugin.php:75, MoviePlugin.php:87
 msgid "Genres"
-msgstr ""
+msgstr "Жанры"
 
 #: MoviePlugin.php:76
 msgid "Genre"
-msgstr ""
+msgstr "Жанр"
 
 #: MoviePlugin.php:77
 msgid "Search genres"
-msgstr ""
+msgstr "Искать жанр"
 
 #: MoviePlugin.php:78
 msgid "Popular genres"
-msgstr ""
+msgstr "Популярные жанры"
 
 #: MoviePlugin.php:79
 msgid "All genres"
-msgstr ""
+msgstr "Все жанры"
 
 #: MoviePlugin.php:80
 msgid "Edit genres"
-msgstr ""
+msgstr "Редактировать жанр"
 
 #: MoviePlugin.php:81
 msgid "Update genres"
-msgstr ""
+msgstr "Обновить жанр"
 
 #: MoviePlugin.php:82
 msgid "Add new genres"
-msgstr ""
+msgstr "Добавить новый жанр"
 
 #: MoviePlugin.php:83
 msgid "New genres name"
-msgstr ""
+msgstr "Новое имя жанра"
 
 #: MoviePlugin.php:84
 msgid "Separate genres with commas"
-msgstr ""
+msgstr "Жанры через запятую"
 
 #: MoviePlugin.php:85
 msgid "Add or remove genres"
-msgstr ""
+msgstr "Добавление или удаление жанров"
 
 #: MoviePlugin.php:86
 msgid "Choose from the most used genres"
-msgstr ""
+msgstr "Выберите из наиболее используемых жанров"
 
 #: MoviePlugin.php:94, MoviePlugin.php:106
 msgid "Countries"
-msgstr ""
+msgstr "страны"
 
 #: MoviePlugin.php:95
 msgid "Country"
-msgstr ""
+msgstr "Страна"
 
 #: MoviePlugin.php:96
 msgid "Search countries"
-msgstr ""
+msgstr "Найти страну"
 
 #: MoviePlugin.php:97
 msgid "Popular countries"
-msgstr ""
+msgstr "Популярные страны"
 
 #: MoviePlugin.php:98
 msgid "All countries"
-msgstr ""
+msgstr "Все страны"
 
 #: MoviePlugin.php:99
 msgid "Edit countries"
-msgstr ""
+msgstr "Редактировать страну"
 
 #: MoviePlugin.php:100
 msgid "Update countries"
-msgstr ""
+msgstr "Обновление стран"
 
 #: MoviePlugin.php:101
 msgid "Add new country"
-msgstr ""
+msgstr "Добавить новую страну"
 
 #: MoviePlugin.php:102
 msgid "New country name"
-msgstr ""
+msgstr "Новое имя страны"
 
 #: MoviePlugin.php:103
 msgid "Separate countries with commas"
-msgstr ""
+msgstr "Страны через  запятую"
 
 #: MoviePlugin.php:104
 msgid "Add or remove countries"
-msgstr ""
+msgstr "Добавление или удаление страны"
 
 #: MoviePlugin.php:105
 msgid "Choose from the most used countries"
-msgstr ""
+msgstr "Выберите из наиболее используемых стран"
 
 #: MoviePlugin.php:113, MoviePlugin.php:125
 msgid "Years"
-msgstr ""
+msgstr "годы"
 
 #: MoviePlugin.php:114
 msgid "Year"
-msgstr ""
+msgstr "Го"
 
 #: MoviePlugin.php:115
 msgid "Search years"
-msgstr ""
+msgstr "Искать год"
 
 #: MoviePlugin.php:116
 msgid "Popular years"
-msgstr ""
+msgstr "Популярные года"
 
 #: MoviePlugin.php:117
 msgid "All years"
-msgstr ""
+msgstr "Все года"
 
 #: MoviePlugin.php:118
 msgid "Edit years"
-msgstr ""
+msgstr "Редактировать год"
 
 #: MoviePlugin.php:119
 msgid "Update years"
-msgstr ""
+msgstr "Обновить год"
 
 #: MoviePlugin.php:120
 msgid "Add new years"
-msgstr ""
+msgstr "Добавить год"
 
 #: MoviePlugin.php:121
 msgid "New years name"
-msgstr ""
+msgstr "Новое название года"
 
 #: MoviePlugin.php:122
 msgid "Separate years with commas"
-msgstr ""
+msgstr "Годы через запятую"
 
 #: MoviePlugin.php:123
 msgid "Add or remove years"
-msgstr ""
+msgstr "Добавить или удалить год"
 
 #: MoviePlugin.php:124
 msgid "Choose from the most used years"
-msgstr ""
+msgstr "Выберите из наиболее часто используемых  годов"
 
 #: MoviePlugin.php:133, MoviePlugin.php:145
 msgid "Actors"
-msgstr ""
+msgstr "Актеры"
 
 #: MoviePlugin.php:134
 msgid "Actor"
-msgstr ""
+msgstr "Актер"
 
 #: MoviePlugin.php:135
 msgid "Search actors"
-msgstr ""
+msgstr "Найти актера"
 
 #: MoviePlugin.php:136
 msgid "Popular actors"
-msgstr ""
+msgstr "Популярные актеры"
 
 #: MoviePlugin.php:137
 msgid "All actors"
-msgstr ""
+msgstr "Все актеры"
 
 #: MoviePlugin.php:138
 msgid "Edit actors"
-msgstr ""
+msgstr "Редактировать актера"
 
 #: MoviePlugin.php:139
 msgid "Update actors"
-msgstr ""
+msgstr "Обновить актера"
 
 #: MoviePlugin.php:140
 msgid "Add new actor"
-msgstr ""
+msgstr "Добавить нового актера"
 
 #: MoviePlugin.php:141
 msgid "New actor name"
-msgstr ""
+msgstr "Новое имя актера"
 
 #: MoviePlugin.php:142
 msgid "Separate actor with commas"
-msgstr ""
+msgstr "Актеры через запятую"
 
 #: MoviePlugin.php:143
 msgid "Add or remove actor"
-msgstr ""
+msgstr "Добавление или удаление актера"
 
 #: MoviePlugin.php:144
 msgid "Choose from the most used actors"
-msgstr ""
+msgstr "Выберите из наиболее часто используемых актеров"
 
 #: templates/single.php:33
 msgid "Pages:"
-msgstr ""
+msgstr "Страницы:"
 
 #: templates/single.php:44
 msgid "Edit"
-msgstr ""
+msgstr "Редактировать"
 
 #: src/MoviePlugin/Classes/ArchiveBanners.php:91
 msgid "Download banners"
-msgstr ""
+msgstr "Загрузить баннер"
 
 #: src/MoviePlugin/Classes/ArchiveBanners.php:95
 msgid "Banner before archive"
-msgstr ""
+msgstr "Банер пред архивом"
 
-#: src/MoviePlugin/Classes/ArchiveBanners.php:101, src/MoviePlugin/Classes/ArchiveBanners.php:113
+#: src/MoviePlugin/Classes/ArchiveBanners.php:101,
+#: src/MoviePlugin/Classes/ArchiveBanners.php:113
 msgid "Download banners image"
-msgstr ""
+msgstr "Загрузить изображение баннера"
 
 #: src/MoviePlugin/Classes/ArchiveBanners.php:107
 msgid "Banner after archive"
-msgstr ""
+msgstr "Банер после  архива"
 
 #: src/MoviePlugin/Classes/ArchiveBanners.php:143
 msgid "Banners settings"
-msgstr ""
+msgstr "Настройки банеров"
 
 #: src/MoviePlugin/Classes/ArchiveBanners.php:144
 msgid "Movies banners"
-msgstr ""
+msgstr "Баннер фильма"
 
 #: src/MoviePlugin/Classes/MetaBox.php:51
 msgid "Extra fields"
-msgstr ""
+msgstr "Дополнительные поля"
 
 #: src/MoviePlugin/Classes/MetaBox.php:67
 msgid "Price:"
-msgstr ""
+msgstr "Цена:"
 
 #: src/MoviePlugin/Classes/MetaBox.php:75
 msgid "Release date:"
-msgstr ""
+msgstr "Дата показа:"
 
 #: src/MoviePlugin/Classes/TemplateSingleMetadata.php:32
 msgid "Additional Information"
-msgstr ""
+msgstr "Дополнительная информация"
 
 #: src/MoviePlugin/Classes/TemplateSingleMetadata.php:36
 msgid "Country: "
-msgstr ""
+msgstr "Страна:"
 
 #: src/MoviePlugin/Classes/TemplateSingleMetadata.php:41
 msgid "Genre: "
-msgstr ""
+msgstr "Жанр:"
 
 #: src/MoviePlugin/Classes/TemplateSingleMetadata.php:46
 msgid "<strong>Release date: </strong>"
-msgstr ""
+msgstr "<strong>Дата показа: </strong>"
 
 #: src/MoviePlugin/Classes/TemplateSingleMetadata.php:54
 msgid "<strong>Price: </strong>"
-msgstr ""
+msgstr "<strong>Цена: </strong>"
